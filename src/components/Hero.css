@@ -1,0 +1,68 @@
+.hero-content-s,
+.hero-content-y,
+.hero-content-x,
+.hero-content-three,
+.hero-content-ct {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.hero-content-s {
+    background-image: url(Model\ S.avif);
+    color: #fff;
+}
+
+.hero-content-y {
+    background-image: url(Model\ Y.avif);
+}
+
+.hero-content-x {
+    background-image: url(Model\ X.avif);
+}
+
+.hero-content-three {
+    background-image: url(Model\ 3.avif);
+}
+
+.hero-content-ct {
+    background-image: url(Model\ CT.avif);
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 400px;
+}
+
+.hero-buttons .btn1 {
+    width: 250px;
+    background-color: white;
+    color: #171a20;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hero-buttons .btn2 {
+    width: 250px;
+    background-color: #171a20;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
